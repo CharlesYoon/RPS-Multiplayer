@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RockPaperScissors</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <div class = "container">
+        <div class = "row justify-content-center">
+            <h1>RockPaperScissors</h1>
+        </div>
+        <div class = "row justify-content-center">
+            <p>PlayerOne:<p id = "playerOneScore">0</p></p>
+            <br><br><br>
+            <p>PlayerTwo:<p id = "playerTwoScore">0</p></p>
+        </div>
+        <div class = "row justify-content-center">
+            <div class = "col">
+                <div class = "row">
+                    <button id = "playerOneRock">Rock</button>
+                    <button id = "playerOnePaper">Paper</button>
+                    <button id = "playerOneScissors">Scissors</button>
+                </div>
+            </div>
+            <div class = "col">
+                <div class = "row">
+                    <button id = "playerTwoRock">Rock</button>
+                    <button id = "playerTwoPaper">Paper</button>
+                    <button id = "playerTwoScissors">Scissors</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
